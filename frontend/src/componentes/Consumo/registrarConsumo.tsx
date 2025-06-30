@@ -98,7 +98,7 @@ function RegistrarConsumo() {
         : [];
 
     return (
-        <div className="container mt-4">
+        <div className="container-fluid mt-4 px-0" style={{ maxWidth: "100vw" }}>
             <h2>Registrar Consumo</h2>
             <form onSubmit={handleSubmit}>
                 <div className="mb-3">
